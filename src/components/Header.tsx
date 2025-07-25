@@ -22,13 +22,12 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">L</span>
-            </div>
-            <span className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              Lorvix
-            </span>
+            <img src="/favicon.ico" alt="Lorvix Solutions" className="w-8 h-8" />
+            <span className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent"> Lorvix Solutions </span>
           </Link>
+
+
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
